@@ -7,108 +7,98 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #333333;
-    /* Tumma tausta */
+    
     color: #FFFFFF;
-    /* Vaalea teksti */
+    
     line-height: 1.6;
     height: 100vh;
-    /* Koko näkymän korkeus */
+   
     display: flex;
     justify-content: center;
-    /* Keskitetään vaakasuunnassa */
+   
     align-items: center;
-    /* Keskitetään pystysuunnassa */
+    
     text-align: center;
-    /* Keskittää tekstin */
+    
 }
 
-/* Keskitetään kaikkien sivujen sisältö */
+
 .center-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Keskitetään osat */
+    
     padding: 20px;
-    /* Lisätty tilaa */
+    
     max-width: 800px;
-    /* Maksimikoko */
+    
     margin: auto;
-    /* Keskittää koko sisällön */
+   
 }
 
-/* Etusivun kuvan tyylit */
+
 .profile-pic {
     width: 250px;
-    /* Kuvan leveys */
+    
     height: auto;
-    /* Korkeus säilytetään suhteessa */
+    
     border-radius: 50%;
-    /* Ympyrämuoto */
+    
     object-fit: cover;
-    /* Varmistaa, että kuva täyttää ympyrän muodon */
+   
     margin-bottom: 20px;
-    /* Vähän tilaa kuvan alapuolelle */
+   
 }
 
-/* Työkokemus ja koulutus */
+
 h2 {
     margin-bottom: 20px;
-    /* Vähän tilaa otsikon alapuolelle */
+    
 }
 
 .experience,
 .education {
     display: flex;
-    /* Flexbox asettelu */
+    
     align-items: flex-start;
-    /* Linjaa ylhäältä alaspäin */
+    
     justify-content: space-between;
-    /* Tasaa tilaa elementtien välillä */
+   
     width: 100%;
-    /* Täyttää koko leveys */
+    
     max-width: 800px;
-    /* Maksimikoko */
+   
     margin-bottom: 20px;
-    /* Tilaa alapuolelle */
+  
 }
 
 .experience-details,
 .education-details {
     flex: 1;
-    /* Jätä tilaa logolle */
     text-align: left;
-    /* Teksti vasemmalle */
     margin-right: 15px;
-    /* Tilaa logon ja tekstin väliin */
 }
 
 .logo {
     width: 50px;
-    /* Logon leveys */
     height: auto;
-    /* Korkeus säilytetään suhteessa */
 }
 
 .additional-info {
     margin-top: 5px;
-    /* Vähän tilaa lisätietojen ylle */
 }
 
-/* Hampurilaisvalikko */
 .menu-btn {
     font-size: 30px;
     cursor: pointer;
     background-color: #2F4F4F;
-    /* Tumma nappi */
     color: white;
-    /* Vaalea teksti */
     border: none;
     padding: 10px 20px;
     position: fixed;
     top: 10px;
     right: 10px;
     z-index: 1000;
-    /* Nappi näkyy kaikkien muiden elementtien päällä */
 }
 
 .overlay-menu {
@@ -118,35 +108,26 @@ h2 {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
-    /* Tumma overlay */
     overflow-x: hidden;
     transition: 0.5s;
     z-index: 999;
-    /* Overlay näkyy muiden elementtien päällä */
 }
 
 .overlay-menu ul {
     list-style-type: none;
-    /* Poista luettelomerkit */
     padding: 0;
     margin-top: 20%;
-    /* Tilaa ylhäällä */
     text-align: center;
-    /* Keskittää linkit */
 }
 
 .overlay-menu ul li {
     margin: 20px 0;
-    /* Valikko päällekkäin */
 }
 
 .overlay-menu ul li a {
     font-size: 2rem;
-    /* Linkkien fonttikoko */
     color: white;
-    /* Linkkien väri */
     text-decoration: none;
-    /* Ilman alleviivausta */
 }
 
 .overlay-menu .closebtn {
@@ -154,66 +135,43 @@ h2 {
     top: 20px;
     right: 45px;
     font-size: 40px;
-    /* Sulkemispainikkeen koko */
     color: white;
-    /* Sulkemispainikkeen väri */
     cursor: pointer;
 }
 
-/* Yhteystiedot-sivun kuvakkeet */
 .contact-list {
     list-style: none;
-    /* Poista luettelomerkit */
     padding: 0;
-    /* Poista sisennykset */
     margin: 0;
-    /* Poista marginaalit */
 }
 
 .contact-list li {
     display: flex;
-    /* Flexbox asettelu */
     align-items: center;
-    /* Linjaa kuvakkeet ja teksti pystysuunnassa */
     justify-content: flex-start;
-    /* Tasaa vasemmalle */
     margin-bottom: 10px;
-    /* Tilaa alapuolelle */
 }
 
 .contact-list img {
     margin-right: 10px;
-    /* Tilaa kuvakkeen ja tekstin väliin */
     width: 24px;
-    /* Kuvakkeen koko */
     height: 24px;
-    /* Kuvakkeen korkeus */
 }
 
 .social-icon {
     width: 32px;
-    /* Sosiaalisen median kuvakkeet */
     height: 32px;
-    /* Kuvakkeen korkeus */
     margin-right: 10px;
-    /* Tilaa kuvakkeen ja tekstin väliin */
 }
 
 .contact-list span {
     align-self: center;
-    /* Varmistaa, että teksti on keskiarvoon linjattu */
     color: white;
-    /* Tekstin väri */
 }
 
-/* Yhteinen asettelu eri sivujen sisällölle */
 .section {
     padding: 20px;
-    /* Sisätilat */
     margin: 20px auto;
-    /* Marginaalit ylhäällä ja alhaalla */
     max-width: 800px;
-    /* Maksimikoko */
     text-align: center;
-    /* Tekstin keskitettävyys */
 }
