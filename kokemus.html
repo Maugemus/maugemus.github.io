@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximus Paajaste - Työkokemus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Hampurilaisvalikko-nappi -->
+    <button class="menu-btn" onclick="openMenu()">☰ </button>
+
+    <!-- Overlay-valikko -->
+    <nav id="overlay-menu" class="overlay-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <ul>
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="minusta.html">Minusta</a></li>
+            <li><a href="kokemus.html">Kokemus</a></li>
+            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+
+    <!-- Kokemussisältö -->
+    <section class="center-content">
+        <h2>Työkokemus</h2>
+
+        <div class="experience">
+            <div class="experience-details">
+                <h3>Puuilo Järvenpää</h3>
+                <p>Työtehtävät ja vastuualueet: Asiakaspalvelu, kassatyöskentely</p>
+                <p class="additional-info">Lisätietoja: Työ kehitti yhteistyötaitoja ja ongelmaratkaisutaitoja. Myös
+                    paineen alla työskentelystä kokemusta.</p>
+                <!-- Lisätietokenttä -->
+            </div>
+            <img src="puuilo.jpg" alt="Organisaation logo" class="logo"> <!-- Paikka logolle -->
+        </div>
+
+        <div class="experience">
+            <div class="experience-details">
+                <h3>Tokmanni logistiikkakeskus Mäntsälä</h3>
+                <p>Työtehtävät ja vastuualueet: Varastotyöntekijä</p>
+                <p class="additional-info">Lisätietoja: Oppeja logistiikasta. Kehitti oma-aloitteisuuteen ja toimimaan
+                    itsenäisesti.</p>
+                <!-- Lisätietokenttä -->
+            </div>
+            <img src="tokmanni.jpg" alt="Organisaation logo" class="logo"> <!-- Paikka logolle -->
+        </div>
+
+        <!-- Lisää tilaa koulutuksen ja työkokemuksen väliin -->
+        <div class="spacer" style="margin: 40px 0;"></div>
+
+        <h2>Koulutus</h2>
+        <div class="education">
+            <div class="education-details">
+                <h3>Haaga-Helia</h3>
+                <p>Koulutustiedot: Tietojenkäsittely</p>
+                <p class="additional-info">Lisätietoja: Erikoistuminen ohjelmistokehitykseen.</p>
+                <!-- Lisätietokenttä -->
+            </div>
+            <img src="haagahelia.jpg" alt="Organisaation logo" class="logo"> <!-- Paikka logolle -->
+        </div>
+        <div class="education">
+            <div class="education-details">
+                <h3>Mäntsälän lukio</h3>
+                <p>Koulutustiedot: Ylioppilastutkinto</p>
+            </div>
+            <img src="mäntsälä.jpg" alt="Organisaation logo" class="logo"> <!-- Paikka logolle -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

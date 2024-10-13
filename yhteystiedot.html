@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximus Paajaste - Yhteystiedot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Hampurilaisvalikko-nappi -->
+    <button class="menu-btn" onclick="openMenu()">☰ </button>
+
+    <!-- Overlay-valikko -->
+    <nav id="overlay-menu" class="overlay-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <ul>
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="minusta.html">Minusta</a></li>
+            <li><a href="kokemus.html">Kokemus</a></li>
+            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+
+    <!-- Yhteystiedot-sisältö -->
+    <section class="center-content">
+        <h2>Ota yhteyttä!</h2>
+        <ul class="contact-list">
+            <li>
+                <img src="email_icon.png" alt="Email">
+                <span>maximus.paajaste@hotmail.com</span>
+            </li>
+            <li>
+                <img src="phone_icon.png" alt="Phone">
+                <span>040 416 3194</span>
+            </li>
+            <li>
+                <img src="linked_icon.png" alt="LinkedIn" class="social-icon">
+                <a href="https://www.linkedin.com/in/maximus-paajaste-914a7b183/" target="_blank">LinkedIn</a>
+                <!-- Lisätty linkki -->
+            </li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
